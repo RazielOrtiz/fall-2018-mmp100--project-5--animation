@@ -1,0 +1,82 @@
+@keyframes  row1{
+  0% {background-position: 0 0;
+  }
+  100% {background-position: -2286px 0;
+  }
+}
+@keyframes row2{
+  0% {background-position: 0 -260px;
+}
+100% {background-position: -2286px -260px;
+}
+}
+@keyframes row3{
+  0% {background-position: 0 -520px;
+  }
+
+100% {background-position: -2286px -520px;}
+}
+@keyframes row4{
+  0% {background-position: 0 -780px;
+  }
+  100% {background-position: -2286px -780px;}
+}
+@keyframes row5{
+  0% {background-position: 0 -1037px;
+  }
+  100% {background-position: -2286px -1037px;}
+}
+@keyframes row6{
+  0% {background-position: 0 -1296px;
+  }
+  100% {background-position: -2286px -1296px;}
+}
+@keyframes row7{
+  0% {background-position: 0 -1556px;
+  }
+  100% {background-position: -2286px -1556px;}
+}
+@keyframes row8{
+  0% {background-position: 0 -1814px;
+  }
+  100% {background-position: -2286px -1814px;}
+}
+@keyframes row9{
+  0% {background-position: 0 -2075px;
+  }
+  100% {background-position: -2286px -2075px;}
+}
+@keyframes row10{
+  0% {background-position: 0 -2332px;
+  }
+  100% {background-position: -2286px -2332px;}
+}
+@keyframes row11{
+  0% {background-position: 0 -2850px;
+  }
+  100% {background-position: -2286px -2850px;}
+}
+@keyframes row12{
+  0% {background-position: 0 -3110px;
+  }
+  100% {background-position: -2286px -3110px;}
+}
+
+#animation {
+  animation: row1 1s steps(8) none,
+   row2 1s steps(8) 1s none,
+   row3 1s steps(8) 2s none,
+   row4 1s steps(8) 3s none,
+   row5 1s steps(8) 4s none,
+   row6 1s steps(8) 5s none,
+   row7 1s steps(8) 6s none,
+   row8 1s steps(8) 7s none,
+   row9 1s steps(8) 8s none,
+   row10 1s steps(8) 9s none,
+   row11 1s steps(8) 10s none,
+   row12 1s steps(8) 11s none;
+
+  width: 290px;
+  height: 258px;
+  background-image: url('../img/sprite.png');
+}
